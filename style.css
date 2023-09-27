@@ -1,8 +1,13 @@
 html{
     background-color: #585b57;
     color: whitesmoke;
-}
 
+    font-size: 22px;
+    font-style: oblique;
+}
 h1{
     text-align: center;
+}
+strong, a{
+    color: #4b93ef;
 }
