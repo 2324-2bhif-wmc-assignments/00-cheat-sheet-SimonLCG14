@@ -9,6 +9,9 @@ h2{
     background-color: #9a9a9a;
     color: #504f4f;
 }
+h3{
+    color: orange;
+}
 strong, a{
     color: #89be94;
 }
