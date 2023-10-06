@@ -9,7 +9,7 @@ h2{
     background-color: #9a9a9a;
     color: #504f4f;
 }
-section > h3{
+#tags h3{
     color: orange;
 }
 strong, a{
@@ -18,9 +18,31 @@ strong, a{
 a:hover{
     color: aqua;
 }
-img{
+img.visibility{
     visibility: hidden;
 }
-div:hover img{
+div:hover img.visibility{
     visibility: visible;
+}
+.nav-bar  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.nav-bar  li{
+    float: left;
+}
+
+.nav-bar  li > a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar  li > a:hover{
+    background-color: #111;
 }
