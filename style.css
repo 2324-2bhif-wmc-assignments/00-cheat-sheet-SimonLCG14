@@ -50,3 +50,6 @@ li{
 .nav-bar  li > a:hover{
     background-color: #111;
 }
+.background-properties li{
+    color: blanchedalmond;
+}
