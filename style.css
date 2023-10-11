@@ -7,10 +7,8 @@ html{
     text-shadow: 1px 1px 2px black;
     font-weight: 650;
 }
-hr{
-    border: 4px solid #89be94;
-}
 h2{
+    text-align: center;
     background-color: #9a9a9a;
     color: #504f4f;
 }
@@ -19,9 +17,6 @@ h2{
 }
 strong, a{
     color: #89be94;
-}
-a:hover{
-    color: aqua;
 }
 img.visibility{
     visibility: hidden;
@@ -62,4 +57,25 @@ ol > li{
 }
 .link-states{
     color: #89be94;
+}
+section, ol, ul{
+    border-style: groove;
+    border-color: #89be94;
+    margin: 30px 20px 20px 20px;
+    border-width: 10px;
+    border-radius: 5px;
+}
+ol, ul{
+    border-color: whitesmoke;
+    margin-bottom: 0;
+}
+ol:hover, ul:hover{
+    border-width: 15px;
+}
+h2, h3, ul > li, p, ol > li{
+    padding-left: 10px;
+}
+#url-syntax-diagram{
+    margin-top: 10px;
+    width: 1800px;
 }

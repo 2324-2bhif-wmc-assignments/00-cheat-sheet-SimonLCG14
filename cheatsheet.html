@@ -6,9 +6,9 @@
     <title>HTML</title>
 </head>
 <body>
+<main>
 
     <h2>Navigation</h2>
-    <hr>
     <nav>
         <div class="nav-bar">
         <ul>
@@ -22,40 +22,37 @@
         </div>
     </nav>
 
-    <hr>
-
     <section id="www">
         <h2>World Wide Web Generell</h2>
-        <hr>
+
         <div class="styled-list">
-            <ul>
-                <li>Erfunden von Tim Berners-Lee while working at <abbr title="European Organization for Nuclear Research">CERN</abbr></li>
-                <li><strong>HTTPS = Hyper Text Transfer Protocol Secured</strong></li>
-                <li><strong>URL = Uniform Ressource Locator</strong></li>
-                <li><strong>HTML = Hyper Text Markup Language</strong></li>
-                <li>Internet != World Wide Web</li>
-                <li>Veröffentlicht <strong>1991</strong></li>
-            </ul>
+                <ul>
+                    <li>Erfunden von Tim Berners-Lee while working at <abbr title="European Organization for Nuclear Research">CERN</abbr></li>
+                    <li><strong>HTTPS = Hyper Text Transfer Protocol Secured</strong></li>
+                    <li><strong>URL = Uniform Ressource Locator</strong></li>
+                    <li><strong>HTML = Hyper Text Markup Language</strong></li>
+                    <li>Internet != World Wide Web</li>
+                    <li>Veröffentlicht <strong>1991</strong></li>
+                </ul>
+
+
+            <ol>
+                <li>What are the most essential technologies that made the World Wide Web such a success?<br>
+                    <p>- HTTPS, URL, HTML</p>
+                </li>
+                <li>How are resources (html pages, images) addressed in the web?
+                    <p>- Through the Uniform Ressource Locator</p>
+                </li>
+                <li>What are the general components of an url?
+                    <p>Scheme, path. In addition, userinfo, host, port, query and fragment</p>
+                </li>
+            </ol>
         </div>
-
-        <ol>
-            <li>What are the most essential technologies that made the World Wide Web such a success?<br>
-                <p>- HTTPS, URL, HTML</p>
-            </li>
-            <li>How are resources (html pages, images) addressed in the web?
-                <p>- Through the Uniform Ressource Locator</p>
-            </li>
-            <li>What are the general components of an url?
-                <p>Scheme, path. In addition, userinfo, host, port, query and fragment</p>
-            </li>
-        </ol>
     </section>
-
-    <hr>
 
     <section id="url">
         <h2>URL</h2>
-        <hr>
+
         <div class="styled-list">
              <ul>
                  <li>Knows an adress in the web</li>
@@ -64,14 +61,11 @@
                  <li><strong>authority = [userinfo "@"] host [":" port]</strong></li>
              </ul>
         </div>
-        <img src="Images/URI_syntax_diagram.svg.png" alt="syntax_diagram">
+        <img src="Images/URI_syntax_diagram.svg.png" alt="syntax_diagram" id="url-syntax-diagram">
     </section>
-
-    <hr>
 
     <section id="web_server">
         <h2>Web server</h2>
-        <hr>
 
         <div class="styled-list">
             <ul>
@@ -121,12 +115,11 @@
                 <p>It can be <abbr title="Any form of hearing">aural</abbr>, textual, visual</p>
             </li>
         </ol>
-        <hr>
+
     </section>
 
     <section id="web-client">
         <h2>Web Client</h2>
-        <hr>
 
         <div class="styled-list">
             <ul>
@@ -139,16 +132,13 @@
             </ul>
         </div>
 
-        <hr>
     </section>
 
     <section id="tags">
         <h2>Tags</h2>
-        <hr>
 
         <section id="meta-tag">
             <h3>&lt;meta&gt;</h3>
-            <hr>
 
             <div class="styled-list">
                 <ul>
@@ -158,12 +148,10 @@
                 </ul>
             </div>
 
-            <hr>
         </section>
 
         <section id="article-tag">
             <h3>&lt;article&gt;</h3>
-            <hr>
 
             <div class="styled-list">
                 <ul>
@@ -179,12 +167,10 @@
                 </ul>
             </div>
 
-            <hr>
         </section>
 
         <section id="doctype">
             <h3>&lt;!DOCTYPE&gt;</h3>
-            <hr>
 
             <div class="styled-list">
                 <ul>
@@ -193,12 +179,10 @@
                 </ul>
             </div>
 
-            <hr>
         </section>
 
         <section id="span">
             <h3>&lt;span&gt;</h3>
-            <hr>
 
             <div class="styled-list">
                 <ul>
@@ -207,12 +191,10 @@
                     <li>The &lt;span&gt; tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute.</li>
                 </ul>
             </div>
-            <hr>
         </section>
 
         <section id="div">
-            <h3 id>&lt;div&gt;</h3>
-            <hr>
+            <h3>&lt;div&gt;</h3>
 
             <div class="styled-list">
                 <ul>
@@ -223,14 +205,12 @@
                 </ul>
             </div>
 
-            <hr>
         </section>
 
     </section>
 
     <section id="hello-world">
         <h2>Hello World</h2>
-        <hr>
 
         <div class="styled-list">
             <ul>
@@ -241,5 +221,6 @@
             </ul>
         </div>
     </section>
+</main>
 </body>
 </html>
