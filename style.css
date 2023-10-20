@@ -58,26 +58,35 @@ ol > li{
 .link-states{
     color: #89be94;
 }
-section, ol, ul{
+section, ol, ul, dl{
     border-style: groove;
     border-color: #89be94;
     margin: 30px 20px 20px 20px;
     border-width: 10px;
     border-radius: 5px;
 }
-ol, ul{
+ol, ul, dl{
     border-color: whitesmoke;
     margin-bottom: 0;
 }
-ol:hover, ul:hover{
+ol:hover, ul:hover, dl:hover{
     border-width: 15px;
 }
-h2, h3, ul > li, p, ol > li{
+h2, h3, ul > li, p, ol > li, dl > dt, dt > dd{
     padding-left: 10px;
 }
 #url-syntax-diagram{
     margin-top: 10px;
     width: 1800px;
+}
+
+.example-styled-unordered-list{
+    list-style-type: square;
+    color: black;
+}
+.styled-ordered-list{
+    list-style-type: upper-roman;
+    list-style-position: inside;
 }
 
 /*Animations*/
