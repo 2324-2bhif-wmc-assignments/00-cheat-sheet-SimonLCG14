@@ -88,7 +88,21 @@ h2, h3, ul > li, p, ol > li, dl > dt, dt > dd{
     list-style-type: upper-roman;
     list-style-position: inside;
 }
-
+table{
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    border-collapse: collapse;
+    width: 80%;
+}
+table, tr, th, td{
+    border: 0.3rem solid #111;
+}
+th{
+    background-color: rgb(180, 16, 16);
+}
+td{
+    background-color: #7a7a7a;
+}
 /*Animations*/
 
 /*First animation*/
