@@ -69,9 +69,6 @@ ol, ul, dl{
     border-color: whitesmoke;
     margin-bottom: 0;
 }
-ol:hover, ul:hover, dl:hover{
-    border-width: 15px;
-}
 h2, h3, ul > li, p, ol > li, dl > dt, dt > dd{
     padding-left: 10px;
 }
