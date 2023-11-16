@@ -68,6 +68,7 @@ section, ol, ul, dl{
 ol, ul, dl{
     border-color: whitesmoke;
     margin-bottom: 0;
+    background-color: #666666;
 }
 h2, h3, ul > li, p, ol > li, dl > dt, dt > dd{
     padding-left: 10px;
@@ -99,6 +100,9 @@ th{
 }
 td{
     background-color: #7a7a7a;
+}
+li > ul, li > ol{
+    background-color: #363636;
 }
 /*Animations*/
 
