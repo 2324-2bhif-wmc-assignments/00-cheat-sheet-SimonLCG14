@@ -50,6 +50,12 @@ ol > li{
     margin-bottom: 10px;
 }
 
+.start-section{
+    background-color: #89be94;
+    border-style: groove;
+    border-radius: 12px;
+}
+
 .text-decorated{
     text-decoration-line: underline;
     text-decoration-style: double;
@@ -59,11 +65,7 @@ ol > li{
     color: #89be94;
 }
 section, ol, ul, dl{
-    border-style: groove;
-    border-color: #89be94;
     margin: 30px 20px 20px 20px;
-    border-width: 10px;
-    border-radius: 5px;
 }
 ol, ul, dl{
     border-color: whitesmoke;
@@ -85,6 +87,12 @@ h2, h3, ul > li, p, ol > li, dl > dt, dt > dd{
 .styled-ordered-list{
     list-style-type: upper-roman;
     list-style-position: inside;
+
+    background-color: #666666;
+    border-style: groove;
+    border-radius: 12px;
+
+
 }
 table{
     margin-left: 2rem;
