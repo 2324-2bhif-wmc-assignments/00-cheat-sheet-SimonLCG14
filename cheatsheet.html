@@ -26,7 +26,7 @@
     <section id="www" class="start-section">
         <h2>World Wide Web Generell</h2>
 
-        <div class="styled-list">
+        <div class="second-section">
                 <ul>
                     <li>Erfunden von Tim Berners-Lee while working at <abbr title="European Organization for Nuclear Research">CERN</abbr></li>
                     <li><strong>HTTPS = Hyper Text Transfer Protocol Secured</strong></li>
@@ -54,7 +54,7 @@
     <section id="url" class="start-section">
         <h2>URL</h2>
 
-        <div class="styled-list">
+        <div class="second-section">
              <ul>
                  <li>Knows an adress in the web</li>
                  <li><strong>URI = scheme ":" ["//" authority] path ["?" query] ["#" fragment</strong></li>
@@ -68,61 +68,61 @@
     <section id="web_server" class="start-section">
         <h2>Web server</h2>
 
-        <div class="styled-list">
-            <ul>
-                <li>Ein Webserver-Programm übernimmt die Rolle eines Servers in einem Client-Server-Modell, indem es eine oder mehrere Versionen des HTTP-Protokolls implementiert, oft einschließlich der sicheren Variante HTTPS und anderer Funktionen und Erweiterungen, die für seine geplante Verwendung nützlich sind</li>
-                <li>Features:
-                    <ul>
-                        <li><abbr title="being able to serve dynamic content (web files) to clients via HTTP protocol">Static Content Serving</abbr></li>
-                        <li><abbr title="usually web servers have also the capability of logging some information, about client requests and server responses, to log files for security and statistical purposes.">Logging</abbr></li>
-                        <li><abbr title="support for one or more versions of HTTP protocol in order to send versions of HTTP responses compatible with versions of client HTTP requests, e.g. HTTP/1.0, HTTP/1.1 (eventually also with encrypted connections HTTPS), plus, if available, HTTP/2, HTTP/3.">HTTP</abbr></li>
-                    </ul>
-                </li>
-                <li>Tasks:
-                    <ul>
-                        <li>starts, optionally reads and applies settings found in its configuration file(s) or elsewhere, optionally opens log file, starts listening to client connections / requests;</li>
-                        <li>optionally tries to adapt its general behavior according to its settings and its current operating conditions;</li>
-                        <li>manages client connection(s) (accepting new ones or closing the existing ones as required);</li>
-                        <li><strong>receives</strong> client requests (by reading HTTP messages)</li>
-                        <li><strong>executes</strong> or refuses requested HTTP method</li>
-                        <li><strong>replies</strong> to client requests sending proper HTTP responses (e.g. requested resources or error messages) eventually verifying or adding HTTP headers</li>
-                        <li>optionally <strong>logs</strong> (partially or totally) client requests and/or its responses to an external user log file or to a system log file by syslog, usually using common log format;</li>
-                        <li>optionally logs process messages about detected anomalies or other notable events (e.g. in client requests or in its internal functioning) using syslog or some other system facilities; these log messages usually have a debug, warning, error, alert level which can be filtered (not logged) depending on some settings, see also severity level</li>
-                        <li>optionally generates statistics about web traffic managed and/or its performances;</li>
-                    </ul>
-                </li>
-                <li>Read request message
-                    <ul>
-                        <li>read an HTTP request message;</li>
-                        <li>interpret it;</li>
-                        <li>verify its syntax;</li>
-                        <li>identify known HTTP headers and to extract their values from them.</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+        <div class="second-section">
+                <ul>
+                    <li>Ein Webserver-Programm übernimmt die Rolle eines Servers in einem Client-Server-Modell, indem es eine oder mehrere Versionen des HTTP-Protokolls implementiert, oft einschließlich der sicheren Variante HTTPS und anderer Funktionen und Erweiterungen, die für seine geplante Verwendung nützlich sind</li>
+                    <li>Features:
+                        <ul>
+                            <li><abbr title="being able to serve dynamic content (web files) to clients via HTTP protocol">Static Content Serving</abbr></li>
+                            <li><abbr title="usually web servers have also the capability of logging some information, about client requests and server responses, to log files for security and statistical purposes.">Logging</abbr></li>
+                            <li><abbr title="support for one or more versions of HTTP protocol in order to send versions of HTTP responses compatible with versions of client HTTP requests, e.g. HTTP/1.0, HTTP/1.1 (eventually also with encrypted connections HTTPS), plus, if available, HTTP/2, HTTP/3.">HTTP</abbr></li>
+                        </ul>
+                    </li>
+                    <li>Tasks:
+                        <ul>
+                            <li>starts, optionally reads and applies settings found in its configuration file(s) or elsewhere, optionally opens log file, starts listening to client connections / requests;</li>
+                            <li>optionally tries to adapt its general behavior according to its settings and its current operating conditions;</li>
+                            <li>manages client connection(s) (accepting new ones or closing the existing ones as required);</li>
+                            <li><strong>receives</strong> client requests (by reading HTTP messages)</li>
+                            <li><strong>executes</strong> or refuses requested HTTP method</li>
+                            <li><strong>replies</strong> to client requests sending proper HTTP responses (e.g. requested resources or error messages) eventually verifying or adding HTTP headers</li>
+                            <li>optionally <strong>logs</strong> (partially or totally) client requests and/or its responses to an external user log file or to a system log file by syslog, usually using common log format;</li>
+                            <li>optionally logs process messages about detected anomalies or other notable events (e.g. in client requests or in its internal functioning) using syslog or some other system facilities; these log messages usually have a debug, warning, error, alert level which can be filtered (not logged) depending on some settings, see also severity level</li>
+                            <li>optionally generates statistics about web traffic managed and/or its performances;</li>
+                        </ul>
+                    </li>
+                    <li>Read request message
+                        <ul>
+                            <li>read an HTTP request message;</li>
+                            <li>interpret it;</li>
+                            <li>verify its syntax;</li>
+                            <li>identify known HTTP headers and to extract their values from them.</li>
+                        </ul>
+                    </li>
+                </ul>
 
-        <ol>
-            <li>What is a web server?
-                <p>A server which usually has data and which understands URLs and HTTP</p>
-            </li>
-            <li>What does a web server?
-                <p>It serves dynamic content to the web client via HTTP</p>
-            </li>
-            <li>How can content be stored on a web server?
-                <p>If it is a static web server it can be stored in HTML, CSS, JS files and if it is a dynamic web server it can produce content via PHP</p>
-            </li>
-            <li>How is content in webpages described?
-                <p>It can be <abbr title="Any form of hearing">aural</abbr>, textual, visual</p>
-            </li>
-        </ol>
+            <ol>
+                <li>What is a web server?
+                    <p>A server which usually has data and which understands URLs and HTTP</p>
+                </li>
+                <li>What does a web server?
+                    <p>It serves dynamic content to the web client via HTTP</p>
+                </li>
+                <li>How can content be stored on a web server?
+                    <p>If it is a static web server it can be stored in HTML, CSS, JS files and if it is a dynamic web server it can produce content via PHP</p>
+                </li>
+                <li>How is content in webpages described?
+                    <p>It can be <abbr title="Any form of hearing">aural</abbr>, textual, visual</p>
+                </li>
+            </ol>
+        </div>
 
     </section>
 
     <section id="web-client" class="start-section">
         <h2>Web Client</h2>
 
-        <div class="styled-list">
+        <div class="second-section">
             <ul>
                 <li>The purpose of a web browser is to fetch content from the World Wide Web or from local storage and display it on a user's device</li>
                 <li>This process begins when the user inputs a Uniform Resource Locator (URL), such as https://en.wikipedia.org/, into the browser.
@@ -141,7 +141,7 @@
         <section id="meta-tag">
             <h3>&lt;meta&gt;</h3>
 
-            <div class="styled-list">
+            <div class="second-section">
                 <ul>
                     <li>The &lt;meta&gt; tag defines metadata about an HTML document. Metadata is data (information) about data.</li>
                     <li><strong>Metadata will not be displayed on the page, but is machine parsable.</strong></li>
@@ -154,7 +154,7 @@
         <section id="article-tag">
             <h3>&lt;article&gt;</h3>
 
-            <div class="styled-list">
+            <div class="second-section">
                 <ul>
                     <li>The &lt;article&gt; tag specifies independent, self-contained content.</li>
                     <li>An article should make sense on its own, and it should be possible to distribute it independently of the rest of the site.</li>
@@ -173,7 +173,7 @@
         <section id="doctype">
             <h3>&lt;!DOCTYPE&gt;</h3>
 
-            <div class="styled-list">
+            <div class="second-section">
                 <ul>
                     <li>All HTML documents must start with a &lt;!DOCTYPE&gt; declaration.</li>
                     <li>The declaration is not an HTML tag. It is an "information" to the browser about <strong>what document type to expect.</strong></li>
@@ -185,7 +185,7 @@
         <section id="span">
             <h3>&lt;span&gt;</h3>
 
-            <div class="styled-list">
+            <div class="second-section">
                 <ul>
                     <li>The &lt;span&gt; tag is an inline container used to mark up a part of a text, or a part of a document.</li>
                     <li>The &lt;span&gt; tag is much like the &lt;div&gt; element, but &lt;div&gt; is a block-level element and &lt;span&gt; is an inline element.</li>
@@ -197,7 +197,7 @@
         <section id="div">
             <h3>&lt;div&gt;</h3>
 
-            <div class="styled-list">
+            <div class="second-section">
                 <ul>
                     <li>The &lt;div&gt; tag defines a division or a section in an HTML document.</li>
                     <li>The &lt;div&gt; tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.</li>
@@ -210,10 +210,10 @@
 
     </section>
 
-    <section id="hello-world">
+    <section id="hello-world" class="start-section">
         <h2>Hello World</h2>
 
-        <div class="styled-list">
+        <div class="second-section">
             <ul>
                 <li>The two top html elements are <strong>head and body</strong></li>
                 <li><strong>Metadata</strong> is stored in the <strong>head</strong> and contains information about the website which is not displayed</li>
@@ -223,10 +223,10 @@
         </div>
     </section>
 
-    <section id="http-methods">
+    <section id="http-methods" class="start-section">
         <h2>HTTP methods</h2>
 
-        <div class="styled-list">
+        <div class="second-section">
             <ul>
                 <li>GET</li>
                 <li>POST</li>
