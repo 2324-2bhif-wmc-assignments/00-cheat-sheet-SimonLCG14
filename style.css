@@ -163,8 +163,22 @@ li > ul, li > ol{
     color: #504f4f;
 }
 
-#test{
+#linear-gradient-example{
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    text-align: center;
+}
+
+#radial-gradient-example{
+    border-radius: 12px;
+    height: 6rem;
+    background-image: radial-gradient(red, orange, yellow, green, blue, indigo, violet);
+    text-align: center;
+}
+
+#conic-radient-example{
+    border-radius: 12px;
+    height: 6rem;
+    background-image: conic-gradient(red, orange, yellow, green, blue, indigo, violet);
     text-align: center;
 }
 
