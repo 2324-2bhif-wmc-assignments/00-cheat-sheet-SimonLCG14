@@ -163,6 +163,11 @@ li > ul, li > ol{
     color: #504f4f;
 }
 
+#test{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    text-align: center;
+}
+
 /*Second animation*/
 @keyframes change-size-and-color {
     0%    {border-radius: 160px; background-color: whitesmoke}
@@ -186,12 +191,31 @@ li > ul, li > ol{
     background-color: whitesmoke;
 
     animation-name: change-size-and-color;
-    animation-duration: 3s;
+    animation-duration: 0.5s;
     animation-direction: alternate;
 
     animation-iteration-count: infinite;
 
     border-radius: 150px;
+}
+
+/*transition*/
+
+@keyframes translate {
+    0% { translate: 1rem }
+    100% { translate: 2rem }
+}
+
+.transition{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    background-color: whitesmoke;
+
+    animation-name: translate;
+    animation-duration: 3s;
+    animation-direction: alternate;
 }
 
 
