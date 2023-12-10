@@ -1,22 +1,27 @@
+
 html{
-    background-color: #585b57;
+    background-image: linear-gradient(to right, #224258, #007cc7);
     color: whitesmoke;
     font-size: 22px;
     font-style: oblique;
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px grey;
     font-weight: 650;
+}
+h1{
+    margin: 0;
+    text-align: center;
 }
 h2{
     text-align: center;
-    background-color: #9a9a9a;
-    color: #504f4f;
+    background-color: #124258;
+    color: whitesmoke;
 }
 #tags h3{
     color: orange;
 }
 strong, a{
-    color: #89be94;
+    color: #4DA8DA;
 }
 img.visibility{
     visibility: hidden;
@@ -26,10 +31,10 @@ div:hover img.visibility{
 }
 .nav-bar  ul{
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #203647;
+    margin: 0;
 }
 .nav-bar  li{
     float: left;
@@ -51,12 +56,13 @@ ol > li{
 }
 
 .start-section{
-    background-color: #89be94;
+    background-color: #124258;
     border-style: groove;
     border-radius: 12px;
+    border-color: #124258;
 }
 .second-section{
-    background-color: #666666;
+    background-color: #203647;
     border-style: groove;
     border-radius: 12px;
     margin: 1rem 1rem 1rem 1rem;
@@ -76,7 +82,6 @@ section, ol, ul, dl{
 ol, ul, dl{
     border-color: whitesmoke;
     margin-bottom: 0;
-    background-color: #666666;
 }
 h2, h3, ul > li, p, ol > li, dl > dt, dt > dd{
     padding-left: 10px;
@@ -94,11 +99,8 @@ h2, h3, ul > li, p, ol > li, dl > dt, dt > dd{
     list-style-type: upper-roman;
     list-style-position: inside;
 
-    background-color: #666666;
     border-style: groove;
     border-radius: 12px;
-
-
 }
 table{
     margin-left: 2rem;
@@ -114,9 +116,6 @@ th{
 }
 td{
     background-color: #7a7a7a;
-}
-li > ul, li > ol{
-    background-color: #363636;
 }
 /*Animations*/
 
