@@ -231,6 +231,21 @@ td{
     animation-direction: alternate;
 }
 
+.container-row{
+    display: flex;
+    background-color: #7ea8fd;
+}
+.container-col{
+    display: flex;
+    background-color: #7ea8fd;
+    flex-direction: column;
+}
+.flex-item{
+    margin: 0.4rem 0.4rem 0.4rem 0.4rem;
+    background-color: #175cbd;
+    width: 30rem;
+}
+
 
 
 
