@@ -254,11 +254,12 @@ td{
     grid-template-rows: auto;
 }
 .boycott-c-image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+    width: 33%;
     border-radius: 12px;
+}
+.image-container{
+    display: flex;
+    height: 25%;
 }
 
 
